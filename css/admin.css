@@ -64,7 +64,7 @@ td {
 .side-menu li {
     font-size: 24px;
     padding: 10px 40px;
-    color: white;
+    color: rgb(254, 254, 254);
     display: flex;
     align-items: center;
 }
@@ -216,6 +216,7 @@ td {
         border: 2px solid white;
     }
 }
+
 @media screen and (max-width:536px) {
     .brand-name h1 {
         font-size: 16px;
