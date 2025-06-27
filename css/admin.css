@@ -64,7 +64,7 @@ td {
 .side-menu li {
     font-size: 24px;
     padding: 10px 40px;
-    color: rgb(254, 254, 254);
+    color: white;
     display: flex;
     align-items: center;
 }
@@ -215,9 +215,12 @@ td {
         padding: 8px 38px;
         border: 2px solid white;
     }
+    .container .content .content-2 .recent-payments table th:nth-child(2),
+    .container .content .content-2 .recent-payments table td:nth-child(2) {
+        display: none;
+    }
 }
-
-@media screen and (max-width:536px) {
+@media screen and (max-width:511px) {
     .brand-name h1 {
         font-size: 16px;
     }
@@ -230,6 +233,22 @@ td {
     }
     .container .content .content-2 .recent-payments table th:nth-child(2),
     .container .content .content-2 .recent-payments table td:nth-child(2) {
+        display: none;
+    }
+}
+@media screen and (max-width:490px) {
+    .brand-name h1 {
+        font-size: 15px;
+    }
+    .container .content .cards {
+        justify-content: center;
+    }
+    .side-menu li img {
+        width: 30px;
+        height: 30px;
+    }
+    .container .content .content-2 .recent-payments table th:nth-child(1),
+    .container .content .content-2 .recent-payments table td:nth-child(1) {
         display: none;
     }
 }
